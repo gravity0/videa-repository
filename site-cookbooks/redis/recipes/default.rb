@@ -11,7 +11,7 @@ bash "install_redis" do
   code <<-EOH
     tar xzf redis-3.0.7.tar.gz
     cd redis-3.0.7
-    make
+    make && make install
   EOH
   not_if "ls /tmp/redis-3.0.7"
 end
