@@ -1,6 +1,7 @@
 {
   "run_list": [
-    "redis"
+    "redis",
+    "add_user"
   ],
   "automatic": {
     "ipaddress": "videa.local"
