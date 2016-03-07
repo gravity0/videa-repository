@@ -14,6 +14,9 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "centos7"
 
+  config.vm.synced_folder "./share.div", "/vagrant",
+    create: true, owner: "vagrant", group: "vagrant"
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.

@@ -1,0 +1,8 @@
+Host videa-mock
+  HostName 160.16.100.24
+  User root
+  #Port 2222
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile ~/.ssh/key/videa_mock
+  IdentitiesOnly yes

@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/greapflute/project/videa-repository","disabled":false}}}
+{"virtualbox":{"/vagrant":{"create":true,"owner":"vagrant","group":"vagrant","guestpath":"/vagrant","hostpath":"/Users/greapflute/project/videa-repository/share.div","disabled":false}}}
